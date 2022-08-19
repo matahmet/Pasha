@@ -7,4 +7,9 @@
 library(readxl)
 #read_excel("Path where your Excel file is stored\\File Name.xlsx")
 
-df=read_excel("C:\\Users\\emrehan\\Documents\\GitHub\\Pasha\\All136Data\\Data4_PureData2_with_header.xlsx")
+TrProvincialData=read_excel("C:\\Users\\emrehan\\Documents\\GitHub\\Pasha\\Data3_form1.xlsx")
+
+save(TrProvincialData, file="TrProvincialData.Rdata")
+
+
+
